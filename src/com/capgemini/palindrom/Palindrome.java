@@ -35,7 +35,7 @@ public class Palindrome {
 
 	
 //	// not my idea, but I like it
-//	// thus wanted to include
+//	// thus also wanted to include
 //	private boolean evaluateStringMethodB(String input) {
 //		return evaluateCharsArray(input.toCharArray(), 0, input.length()-1);
 //	}

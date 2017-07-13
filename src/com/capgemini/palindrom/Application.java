@@ -11,7 +11,7 @@ public class Application {
 		while(scanner.hasNextLine()){
 			
 			String expression = scanner.nextLine();
-			System.out.println("input accepted: " + expression.matches("\\p{L}+"));
+			System.out.println("input accepted: " + expression.replaceAll("\\s+", "").matches("\\p{L}+"));
 			System.out.println("palindrome: " + palindrom.isPalindrom(expression) + "\n");
 		}
 	}
